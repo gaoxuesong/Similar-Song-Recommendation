@@ -1,1 +1,2 @@
 # Similar-Song-Recommendation
+Existing approaches for this task are mainly based on Collaborative Filtering and Markov Chains. We proposed a novel way of using neural networks to complete this task. We tried to analyse the song patterns and came up lyrical and genre features for the songs in user's playlist. These features are considered as Bag of Words and trained with the CBOW neural networks to predict a similar song that the user would listen to.
