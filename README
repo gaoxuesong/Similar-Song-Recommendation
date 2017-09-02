@@ -1,0 +1,14 @@
+Please find the following files :
+
+data_processing.py : To get the song data from musixmatch and lastfm(performs API calls)
+how to run : python3 data_processing.py
+
+cbow.py : CBOW Model neural network
+how to run : python3 cbow.py <name of the model to be exported>
+
+compare.py : To take the song embeddings and predict the similar song
+how to run : python3 compare.model <name of the model to be imported>
+
+final.model: Final bow model
+final: Final results
+
